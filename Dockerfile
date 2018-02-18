@@ -1,9 +1,11 @@
 FROM node:latest
 
-COPY ./server /app
+RUN npm install -g create-react-app
 
-WORKDIR /app/server
+COPY ./client /app
 
-EXPOSE 5000
+WORKDIR /app/client
+
+EXPOSE 3000
 
 ENTRYPOINT npm install && npm start

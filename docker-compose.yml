@@ -1,8 +1,8 @@
 version: '3'
 services:
-  emaily-web:
+  emaily-clientweb:
     build: ./
     ports:
-      - 5000:5000
+      - 5002:3000
     volumes:
       - ./:/app
