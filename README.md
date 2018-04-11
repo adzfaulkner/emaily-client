@@ -16,4 +16,3 @@ https://www.udemy.com/node-with-react-fullstack-web-development
 1. Copy `config/.env.example` file to `config/.env`
 1. Sign-up for a Stripe account and define it in `client/.env`
 1. Run `docker-compose up`
-
